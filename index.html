@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOLBAG VIRTUAL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.postimg.cc/YqQYc0F5/fundo.png');
+            background-size: cover;  /* Tamanho original da imagem de fundo */
+            background-position: center;
+            color: white;
+            background-attachment: fixed; /* Mantém o fundo fixo */
+        }
+        header {
+            background-color: rgba(33, 150, 243, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 60px;
+            width: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(33, 33, 33, 0.7);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            margin: 10px auto;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            border-radius: 5px;
+        }
+        .card h2 {
+            color: #333;
+        }
+        .card p {
+            color: black; /* Torna o texto preto */
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1976D2;
+        }
+        footer {
+            background-color: rgba(33, 33, 33, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            font-size: 12px;  /* Diminui o tamanho da fonte do texto no rodapé */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/FF0vD8CG/ins-gnea-CEIU-upscayl-5x-realesrgan-x4plus.png" alt="Logo">
+        <h1>SCHOOLBAG VIRTUAL</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#cadastro">Cadastro/Login</a>
+        <a href="#material">Material</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#links">Links</a>
+    </nav>
+    <main id="home">
+        <div class="card">
+            <h2>Bem-vindo ao SCHOOLBAG VIRTUAL</h2>
+            <p>Cadastre-se, acesse materiais, participe de avaliações e acompanhe seu desempenho com segurança.</p>
+            <button onclick="alert('Mais informações em breve!')">Saiba Mais</button>
+        </div>
+    </main>
+    <main id="cadastro">
+        <div class="card">
+            <h2>Cadastro/Login</h2>
+            <p>Crie sua conta como Aluno, Professor ou Pai. Personalize sua experiência de aprendizado!</p>
+            <button onclick="alert('Área de Cadastro em construção!')">Cadastrar-se</button>
+        </div>
+    </main>
+    <main id="material">
+        <div class="card">
+            <h2>Materiais de Leitura e Escrita</h2>
+            <p>Acesse documentos, livros, e vídeos organizados por disciplinas.</p>
+            <button onclick="alert('Materiais disponíveis em breve!')">Acessar Materiais</button>
+        </div>
+    </main>
+    <main id="avaliacoes">
+        <div class="card">
+            <h2>Avaliações e Questionários</h2>
+            <p>Realize testes interativos e acompanhe seu progresso.</p>
+            <button onclick="alert('Avaliações disponíveis em breve!')">Fazer Avaliações</button>
+        </div>
+    </main>
+    <main id="links">
+        <div class="card">
+            <h2>Links Úteis</h2>
+            <p>Acesse recursos externos, como plataformas educacionais e vídeos complementares.</p>
+            <button onclick="alert('Links serão adicionados em breve!')">Ver Links</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 SCHOOLBAG VIRTUAL - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
